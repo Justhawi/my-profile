@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Profile Page </title>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Embedded CSS -->
+  <style>
+    body {
+      font-family: 'Arial', Verdana, sans-serif;
+      margin: 0;
+      background-color: #AEAED4;
+      color: #191970;
+    }
+
+    /* Navigation bar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #124734;
+      padding: 15px 40px;
+    }
+
+    .navbar .logo {
+      color: #fefefe;
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      gap: 30px;
+    }
+
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      transition: color 0.3s ease;
+    }
+
+    .navbar li a:hover {
+      color: #ffc107;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo" style="letter-spacing: 1px;">MY CV</div> <!-- Inline CSS example -->
+    <ul>
+      <li><a href="index.html" style="padding: 5px 10px;">Home</a></li> <!-- Inline CSS example -->
+      <li><a href="https://vulture.akshatjain.me/" style="padding: 5px 10px;">My Works</a></li>
+      <li><a href="contact.html" style="padding: 5px 10px;">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Business Enquiries Form Section -->
+  <div class="container">
+    <h1 style="font-style: italic;">Business & Partnership Enquiries</h1> <!-- Inline CSS example -->
+    <p style="text-align:center;">Please use the form below to get in touch regarding business opportunities, partnerships, or collaborations.</p>
+
+    <form action="#" method="POST">
+      <div>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required style="width: 100%; padding: 8px; margin: 6px 0;"> <!-- Inline CSS -->
+      </div>
+
+      <div>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Your email address" required style="width: 100%; padding: 8px; margin: 6px 0;">
+      </div>
+
+      <div>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject of your enquiry" required style="width: 100%; padding: 8px; margin: 6px 0;">
+      </div>
+
+      <div>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6" placeholder="Type your message here..." required style="width: 100%; padding: 8px; margin: 6px 0;"></textarea>
+      </div>
+
+      <button type="submit" style="background-color: #124734; color: white; padding: 10px 20px; border: none; border-radius: 4px;">Send Enquiry</button>
+    </form>
+  </div>
+
+
+<!-- Footer Section -->
+  <footer style="background-color: #124734; color: white; text-align: center; padding: 20px; font-family: Arial, sans-serif;">
+    <div style="font-weight: bold; font-size: 18px; margin-bottom: 10px;">
+      Michael Hawi Onyango
+    </div>
+    <div style="margin-bottom: 10px;">
+      <a href="index.html" style="color: #ffc107; text-decoration: none; margin: 0 15px;">Home</a>
+      <a href="contact.html" style="color: #ffc107; text-decoration: none; margin: 0 15px;">Contact</a>
+      <a href="https://vulture.akshatjain.me/" style="color: #ffc107; text-decoration: none; margin: 0 15px;">My Works</a><br>
+
+
+      <a href="https://www.instagram.com/m._hawi/" target="_blank" class="social-icon">
+                                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="40">
+                            </a>
+                            <a href="https://x.com/sparkautokenya" target="_blank" class="social-icon">
+                                <img src="images/x.png" alt="X (Twitter)" width="40">
+                            </a>
+
+
+
+
+    </div>
+    <div style="font-size: 14px;">© 2025 Michael Hawi Onyango. All rights reserved.</div>
+  </footer>
+
+
+
+
+
+</body>
+</html>
